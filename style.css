@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Zen+Dots&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-position: center;
+    background-image: url(./bilder/bg.png);
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: "Zen Dots", sans-serif;
+    color: rgb(139, 53, 237);
+}
+
+h2 {
+    font-family: "Zen Dots", sans-serif;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+div.i {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 405px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.kontain {
+    margin: auto;
+    background-color: rgb(59, 4, 95);
+    background-image: url(./bilder/d_bg.png);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+p,
+li {
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+}
+
+p.link {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(139, 53, 237);
+    font-weight: 400;
+}
+
+p.line {
+    margin-top: 10px;
+    border: 2.5px rgb(140, 31, 235) dashed;
+}
+
+p.i {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+ul,
+li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img {
+    width: 50%;
+    border: white 3px dashed;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+a {
+    color: red;
+}
